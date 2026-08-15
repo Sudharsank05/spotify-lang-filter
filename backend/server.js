@@ -1,17 +1,52 @@
-import express from 'express'
-import cors from 'cors'
-import dotenv from 'dotenv'
+import express from "express";
+import axios from "axios";
+import cors from "cors";
+import dotenv from "dotenv";
 
-dotenv.config()
+dotenv.config();
 
-const app = express()
-app.use(cors())
+const app = express();
+app.use(cors());
 
-app.get('/', (req, res) => {
-  res.send('Backend is running')
-})
+app.get("/", (req, res) => {
+  res.send("Backend is running");
+});
 
-const PORT = process.env.PORT || 3001
+app.get("/login", (req, res) => {
+  const scope = "playlist-read-private playlist-read-collaborative";
+  const params = new URLSearchParams({
+    response_type: "code",
+    client_id: process.env.SPOTIFY_CLIENT_ID,
+    scope: scope,
+    redirect_uri: process.env.REDIRECT_URI,
+  });
+  res.redirect(`https://accounts.spotify.com/authorize?${params.toString()}`);
+});
+
+app.get("/callback", async (req, res) => {
+  try {
+    const url = "https://accounts.spotify.com/api/token";
+    const params = new URLSearchParams({
+      grant_type: "authorization_code",
+      code: req.query.code,
+      redirect_uri: process.env.REDIRECT_URI,
+      client_id: process.env.SPOTIFY_CLIENT_ID,
+      client_secret: process.env.SPOTIFY_CLIENT_SECRET,
+    });
+    const config = {
+      headers: {
+        "content-type": "application/x-www-form-urlencoded",
+      },
+    };
+    const response = await axios.post(url, params.toString(), config);
+    res.json(response.data);
+  } catch (error) {
+    console.error("Token exchange failed:", error);
+    res.status(500).json({ error: error.message || "Token exchange failed" });
+  }
+});
+
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
-  console.log(`Server running on http://127.0.0.1:${PORT}`)
-})
+  console.log(`Server running on http://127.0.0.1:${PORT}`);
+});
