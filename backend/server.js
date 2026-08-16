@@ -2,11 +2,23 @@ import express from "express";
 import axios from "axios";
 import cors from "cors";
 import dotenv from "dotenv";
+import session from "express-session";
 
 dotenv.config();
 
 const app = express();
 app.use(cors());
+
+app.use(
+  session({
+    secret: process.env.SESSION_SECRET,
+    resave: false,
+    saveUninitialized: false,
+    cookie: {
+      secure: false,
+    },
+  }),
+);
 
 app.get("/", (req, res) => {
   res.send("Backend is running");
@@ -39,12 +51,20 @@ app.get("/callback", async (req, res) => {
       },
     };
     const response = await axios.post(url, params.toString(), config);
-    res.json(response.data);
+    const { access_token, refresh_token } = response.data;
+    req.session.accesstoken = access_token;
+    req.session.refresh_token = refresh_token;
+    res.redirect("http://localhost:5173");
+    // res.json(response.data);
   } catch (error) {
     console.error("Token exchange failed:", error);
     res.status(500).json({ error: error.message || "Token exchange failed" });
   }
 });
+
+app.get('/debug', (req, res) => {
+    res.json(req.session)
+})
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
