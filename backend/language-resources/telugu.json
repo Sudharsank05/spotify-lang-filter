@@ -1,0 +1,10 @@
+{
+  "code": "te",
+  "name": "Telugu",
+  "script": "Telugu",
+  "commonWords": ["prema", "naa", "nee", "nuvvu", "nenu", "amma", "anna", "akka", "thammudu", "chelli", "babu", "bangaram", "kanna", "gundelo", "manasu", "hrudayam", "paata", "paatalu", "geetham", "raga", "tala", "aata", "aata", "cinema", "chitram", "katha", "kathalu", "andam", "chinnari", "pilla", "kumari", "raja", "rani", "devi", "devudu", "swamy", "ayyappa", "venkateswara", "rama", "krishna", "seetha", "radha"],
+  "transliteratedWords": ["samajavaragamana", "buttabomma", "inkem", "inkem inkem", "vachindamma", "rammante", "rammante", "nuvvunte", "naku", "entha", "macha", "rowdy", "mahesh", "prabhas", "allu", "arjun", "naga", "chaitanya", "ram", "charan", "ntr", "chiranjeevi", "pawan", "kalyan", "devisri", "prasad", "thaman", "anirudh", "dsp", "ss", "rajamouli", "baahubali", "rrr", "naatu", "naatu", "natu", "natu", "dandalayya", "dandalayya", "inkem", "inkem", "kaavaalaa", "kaavaalaa", "calm", "down", "chellamma", "anirudh"],
+  "charNgrams": ["aa", "ee", "uu", "ai", "au", "ka", "na", "ta", "da", "pa", "ma", "ya", "ra", "la", "va", "sa", "ha", "ga", "ba", "cha"],
+  "wordNgrams": ["samajavaragamana song", "buttabomma buttabomma", "inkem inkem kaavaali", "vachindamma vachindamma", "naatu naatu", "nuvvunte naku", "entha maza", "inkem inkem", "calm down chellamma"],
+  "patterns": ["^.*aa$", ".*prema.*", ".*naa.*", ".*nuvvu.*", "samajavaragamana", "buttabomma", "inkem.*", "naatu.*"]
+}

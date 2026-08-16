@@ -1,0 +1,10 @@
+{
+  "code": "pa",
+  "name": "Punjabi",
+  "script": "Gurmukhi",
+  "commonWords": ["pyaar", "mohabbat", "dil", "jaan", "ishq", "prem", "duniya", "zindagi", "raat", "din", "subah", "shaam", "sapna", "dard", "khushi", "gham", "aankh", "gal", "kahaani", "geet", "sur", "taal", "naach", "bhai", "behen", "maa", "papa", "dost", "yaar", "sajan", "sanam", "mehboob", "jaanam", "ruko", "chalo", "aao", "jao", "dekho", "suno", "daso", "kaho", "kuch", "koi", "ek", "do", "tin", "char", "panj", "che", "sat", "ath", "nau", "das"],
+  "transliteratedWords": ["lehanga", "lehanga", "high", "rated", "gabru", "gabru", "bamb", "bamb", "hollywood", "hollywood", "punjabi", "punjabi", "punjab", "amritsar", "ludhiana", "jalandhar", "patiala", "bathinda", "mohali", "firozpur", "hoshiarpur", "kapurthala", "moga", "muktsar", "nawanshahr", "pathankot", "rupnagar", "sangrur", "tarntaran", "barnala", "faridkot", "fatehgarh", "gurdaspur", "mansa", "sri", "muktsar", "sahib", "tarn", "taran", "diljit", "dosanjh", "guru", "randhawa", "badshah", "honey", "singh", "sidhu", "moose", "wala"],
+  "charNgrams": ["aa", "ee", "oo", "ai", "au", "ka", "na", "ta", "da", "pa", "ma", "ya", "ra", "la", "va", "sa", "ha", "kha", "gha", "bha"],
+  "wordNgrams": ["lehanga lehanga", "high rated gabru", "punjabi song", "diljit dosanjh", "guru randhawa", "badshah song"],
+  "patterns": ["^.*a$", ".*pyaar.*", ".*punjabi.*", ".*lehanga.*", ".*gabru.*", "diljit.*"]
+}

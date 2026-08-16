@@ -1,0 +1,10 @@
+{
+  "code": "bn",
+  "name": "Bengali",
+  "script": "Bengali",
+  "commonWords": ["prem", "bhalobasha", "mon", "pran", "aashiq", "dil", "jibon", "jiban", "din", "raat", "rat", "shokal", "bikel", "swapno", "shopno", "dukkho", "sukher", "aankhi", "chokh", "kotha", "golpo", "gaan", "surer", "taal", "nach", "ma", "baba", "bhai", "bon", "bondhu", "priyo", "priyotama", "jan", "jaan", "bhalobashi", "bhalobasho", "cholo", "esho", "jao", "dekho", "shono", "bolo", "koro", "kichu", "kono", "ekta", "dui", "tin"],
+  "transliteratedWords": ["bhalobashi", "bhalobasho", "tumi", "ami", "tomar", "amar", "prem", "bhalobasha", "mon", "pran", "rabindranath", "tagore", "kishore", "kumar", "lata", "mangeshkar", "arijit", "singh", "shreya", "ghoshal", "anupam", "roy", "bengali", "bangla", "kolkata", "dhaka", "sylhet", "chittagong", "rajshahi", "khulna", "barisal", "rangpur", "mymensingh", "comilla", "noakhali", "jessore", "bogra", "dinajpur", "pabna", "kustia", "faridpur"],
+  "charNgrams": ["aa", "ee", "oo", "ai", "au", "ka", "na", "ta", "da", "pa", "ma", "ya", "ra", "la", "va", "sa", "ha", "kha", "gha", "bha"],
+  "wordNgrams": ["bhalobashi tumi", "ami tomar", "bengali song", "rabindrasangeet", "kishore kumar", "arijit singh"],
+  "patterns": ["^.*i$", ".*prem.*", ".*bhalobasha.*", ".*bengali.*", ".*tumi.*", "bhalobashi.*"]
+}

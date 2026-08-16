@@ -1,0 +1,10 @@
+{
+  "code": "ta",
+  "name": "Tamil",
+  "script": "Tamil",
+  "commonWords": ["amma", "appa", "kaadhal", "kannae", "nenjukkul", "anbae", "raaja", "devi", "murugan", "thala", "paatu", "isai", "kavidhai", "vanakkam", "nandri", "poo", "malai", "kadal", "nila", "suriyan", "chandiran", "veetil", "veedu", "thangam", "selvi", "kutty", "machan", "anna", "akka", "thambi", "paapa", "pilla", "manasu", "uyir", "kannu", "kannamma", "raasa", "kanna", "adithya", "varshini"],
+  "transliteratedWords": ["vaathi", "rowdy", "kannamma", "anirudh", "thala", "adithya", "suriya", "dhanush", "simbu", "vijay", "ajith", "yuvan", "ilaiyaraaja", "arr", "hiphop", "tamizha", "tamilan", "kutty", "machan", "kannae", "anbae", "kaadhal", "pogadhe", "maruvaarthai", "munbe", "vaava", "kolaveri", "whythis", "aathichudi", "thalaiva", "sivakarthikeyan", "dhanushkodi", "ennodu", "neeyum", "naanum", "adiye", "maruvaarthai", "kannukulle", "pookkal", "pookal"],
+  "charNgrams": ["th", "zh", "ae", "aa", "oo", "ee", "ai", "au", "ka", "na", "va", "ra", "la", "ya", "pa", "ma", "sa", "da", "ga", "ba"],
+  "wordNgrams": ["vaathi coming", "rowdy baby", "kannamma song", "anbae peranbae", "munbe vaava", "why this kolaveri", "en jannal", "neeye neeye", "adithya varma", "thala ajith"],
+  "patterns": ["^ka.*l$", ".*th.*", ".*zh.*", ".*ae$", ".*aa$", "vaathi", "kannae", "anbae"]
+}

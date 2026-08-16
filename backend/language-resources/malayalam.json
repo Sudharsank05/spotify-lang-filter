@@ -1,0 +1,10 @@
+{
+  "code": "ml",
+  "name": "Malayalam",
+  "script": "Malayalam",
+  "commonWords": ["premam", "sneham", "hridayam", "manass", "amma", "achan", "chechi", "chettan", "mol", "mone", "kutty", "kutti", "paattu", "sangeetham", "raaga", "thala", "kathu", "katha", "cinema", "chithram", "devi", "devan", "swami", "ayyappa", "krishna", "raaman", "seetha", "raadha", "priya", "priyatama", "anuraagam", "anuragam", "mazha", "mazhayethum", "thenmala", "kaayal", "kadal", "malayaalam", "malayalam", "nattil", "veedu", "veettil", "pookkal", "poo", "manikyam", "thanga", "swarnam"],
+  "transliteratedWords": ["manikya", "malar", "malarvaadi", "premam", "njan", "ente", "ente", "neeyum", "njanum", "mohanlal", "mammootty", "dulquer", "salmaan", "fahadh", "faasil", "prithviraj", "nivin", "pauly", "asif", "ali", "shreya", "ghoshal", "malayalam", "malayali", "kochi", "kerala", "thiruvananthapuram", "kannur", "kozhikode", "thrissur", "palakkad", "malappuram", "kollam", "alappuzha", "idukki", "wayanad", "kasaragod", "pathanamthitta", "kottayam", "ernakulam"],
+  "charNgrams": ["aa", "ee", "oo", "ai", "au", "ka", "na", "ta", "da", "pa", "ma", "ya", "ra", "la", "va", "sa", "ha", "nga", "nja", "lla"],
+  "wordNgrams": ["manikya malar", "premam song", "ente swantham", "njan ente", "malayalam song", "kerala song", "mohanlal song"],
+  "patterns": ["^.*am$", ".*premam.*", ".*sneham.*", ".*malayalam.*", ".*njan.*", "manikya.*"]
+}

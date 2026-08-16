@@ -1,0 +1,10 @@
+{
+  "code": "gu",
+  "name": "Gujarati",
+  "script": "Gujarati",
+  "commonWords": ["prem", "mohabbat", "man", "pran", "jivan", "din", "rat", "savare", "sanje", "swapna", "dukh", "sukh", "aankh", "vato", "varta", "geet", "sur", "taal", "naach", "ma", "bapu", "bhai", "ben", "mitra", "priya", "priyatam", "jaan", "prem", "chalo", "aavo", "jao", "jovo", "sambhlo", "kaho", "karo", "koi", "ek", "be", "tran", "char", "panch", "chha", "sat", "ath", "nav", "das"],
+  "transliteratedWords": ["nagin", "nagin", "dholida", "dholida", "garba", "garba", "dandiya", "dandiya", "raas", "raas", "gujarati", "gujarati", "gujarat", "ahmedabad", "surat", "vadodara", "rajkot", "bhavnagar", "jamnagar", "gandhinagar", "anand", "mehsana", "patan", "banaskantha", "sabarkantha", "aravalli", "mahisagar", "dahod", "panchmahal", "kheda", "anand", "narmada", "bharuch", "surat", "tapi", "dang", "navsari", "valsad", "vapi"],
+  "charNgrams": ["aa", "ee", "oo", "ai", "au", "ka", "na", "ta", "da", "pa", "ma", "ya", "ra", "la", "va", "sa", "ha", "kha", "gha", "bha"],
+  "wordNgrams": ["nagin nagin", "dholida dholida", "garba song", "dandiya raas", "gujarati song", "gujarat song"],
+  "patterns": ["^.*i$", ".*prem.*", ".*gujarati.*", ".*garba.*", ".*dholida.*", "nagin.*"]
+}

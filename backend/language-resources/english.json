@@ -1,0 +1,10 @@
+{
+  "code": "en",
+  "name": "English",
+  "script": "Latin",
+  "commonWords": ["the", "and", "you", "love", "me", "my", "your", "heart", "baby", "girl", "boy", "night", "day", "time", "life", "world", "dream", "song", "music", "dance", "forever", "always", "never", "goodbye", "hello", "please", "thank", "sorry", "happy", "sad", "beautiful", "crazy", "wild", "free", "home", "away", "back", "again", "tonight", "tomorrow", "yesterday", "summer", "winter", "spring", "fall", "fire", "water", "sky", "star", "moon", "sun", "light", "dark", "blue", "red", "green", "black", "white"],
+  "transliteratedWords": ["shape", "perfect", "blinding", "lights", "someone", "liked", "bad", "guy", "billie", "eilish", "taylor", "swift", "ed", "sheeran", "adele", "drake", "weeknd", "justin", "bieber", "ariana", "grande", "dua", "lipa", "harry", "styles", "olivia", "rodrigo", "sza", "kendrick", "lamar", "travis", "scott", "post", "malone", "bruno", "mars", "lady", "gaga", "rihanna", "beyonce", "eminem", "coldplay", "maroon", "imagine", "dragons"],
+  "charNgrams": ["th", "ing", "tion", "ness", "ment", "able", "ful", "less", "ly", "er", "est", "ed", "en", "re", "un", "dis", "pre", "pro", "over", "under"],
+  "wordNgrams": ["shape of you", "blinding lights", "someone you loved", "bad guy", "thank you next", "perfect ed sheeran", "hello adele", "love yourself", "thinking out loud"],
+  "patterns": ["^the\\s", "^a\\s", "^an\\s", ".*ing$", ".*tion$", ".*ness$", ".*ful$", ".*less$"]
+}

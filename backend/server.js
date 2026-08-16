@@ -7,7 +7,7 @@ import session from "express-session";
 dotenv.config();
 
 const app = express();
-app.use(cors());
+app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 
 app.use(
   session({
@@ -37,6 +37,7 @@ app.get("/login", (req, res) => {
 
 app.get("/callback", async (req, res) => {
   try {
+    // console.log("Callback hit, code:", req.query.code)
     const url = "https://accounts.spotify.com/api/token";
     const params = new URLSearchParams({
       grant_type: "authorization_code",
@@ -52,8 +53,8 @@ app.get("/callback", async (req, res) => {
     };
     const response = await axios.post(url, params.toString(), config);
     const { access_token, refresh_token } = response.data;
-    req.session.accesstoken = access_token;
-    req.session.refresh_token = refresh_token;
+    req.session.accessToken = access_token;
+    req.session.refreshToken = refresh_token;
     res.redirect("http://localhost:5173");
     // res.json(response.data);
   } catch (error) {
@@ -62,9 +63,33 @@ app.get("/callback", async (req, res) => {
   }
 });
 
-app.get('/debug', (req, res) => {
-    res.json(req.session)
-})
+app.get("/api/playlists", async (req, res) => {
+  const token = req.session.accessToken;
+
+  if (!token) {
+    return res.status(401).json({ error: "Not authenticated" });
+  }
+
+  try {
+    const response = await axios.get(
+      "https://api.spotify.com/v1/me/playlists",
+      {
+        headers: {
+          Authorization: `Bearer ${token}`,
+        },
+      },
+    );
+
+    res.json(response.data);
+  } catch (error) {
+    console.error("Failed to fetch playlists: ", error.response?.data || error.message);
+    res.status(500).json({ error: "Failed to fetch playlists" });
+  }
+});
+
+app.get("/debug", (req, res) => {
+  res.json(req.session);
+});
 
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {

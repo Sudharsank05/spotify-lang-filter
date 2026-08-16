@@ -1,0 +1,10 @@
+{
+  "code": "mr",
+  "name": "Marathi",
+  "script": "Devanagari",
+  "commonWords": ["prem", "mohabbat", "man", "pran", "jivan", "jivn", "din", "rat", "sakal", "sandhyakal", "swapna", "dukh", "sukh", "aankhi", "bol", "gost", "gane", "sur", "taal", "naach", "aai", "baba", "bhau", "bahin", "mitra", "priya", "priyatama", "jaan", "prem", "mohabbat", "chala", "ya", "ja", "bagh", "aik", "sang", "kara", "kahi", "kahi", "ek", "don", "tin", "char", "pach", "sah", "sat", "ath", "nav", "dah"],
+  "transliteratedWords": ["zingaat", "zingaat", "pinga", "pinga", "malhar", "malhar", "lavani", "lavani", "powada", "powada", "abhang", "abhang", "bhakti", "bhakti", "marathi", "marathi", "mumbai", "pune", "nagpur", "nashik", "aurangabad", "kolhapur", "sangli", "satara", "solapur", "amravati", "akola", "yavatmal", "buldhana", "washim", "hingoli", "nanded", "parbhani", "latur", "osmanabad", "beed", "jalna", "ahmednagar", "dhule", "nandurbar", "jalgaon"],
+  "charNgrams": ["aa", "ee", "oo", "ai", "au", "ka", "na", "ta", "da", "pa", "ma", "ya", "ra", "la", "va", "sa", "ha", "kha", "gha", "bha"],
+  "wordNgrams": ["zingaat zingaat", "pinga pinga", "marathi song", "lavani song", "powada song", "abhang song"],
+  "patterns": ["^.*at$", ".*prem.*", ".*marathi.*", ".*zingaat.*", ".*pinga.*", "lavani.*"]
+}

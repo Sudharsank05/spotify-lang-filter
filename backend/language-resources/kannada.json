@@ -1,0 +1,10 @@
+{
+  "code": "kn",
+  "name": "Kannada",
+  "script": "Kannada",
+  "commonWords": ["prema", "hrudaya", "manasu", "amma", "appa", "anna", "akka", "tamma", "tangi", "kutti", "kutty", "haadu", "geethe", "sangeetha", "raaga", "taala", "kathe", "cinema", "chitrana", "devi", "deva", "swami", "ayyappa", "krishna", "rama", "seetha", "radha", "priya", "priyatame", "anuraaga", "anuraaga", "male", "malai", "neeru", "nadi", "samudra", "kannada", "nadu", "mane", "maneyalli", "hoovu", "hoovugalu", "bangara", "swarna"],
+  "transliteratedWords": ["kantara", "kantara", "varaha", "roopa", "dam", "dam", "dam", "dam", "dam", "dam", "yash", "darshan", "puneeth", "rajkumar", "shivarajkumar", "upendra", "sudeep", "rishab", "shetty", "rakshit", "shetty", "dhananjay", "rachita", "ram", "kannada", "kannadiga", "bengaluru", "mysuru", "hubballi", "mangaluru", "udupi", "shimoga", "belgaum", "gulbarga", "raichur", "bellary", "bidar", "chitradurga", "tumkur", "kolar"],
+  "charNgrams": ["aa", "ee", "oo", "ai", "au", "ka", "na", "ta", "da", "pa", "ma", "ya", "ra", "la", "va", "sa", "ha", "ga", "ba", "ksha"],
+  "wordNgrams": ["kantara song", "varaha roopa", "dam dam dam", "kannada song", "yash song", "darshan song"],
+  "patterns": ["^.*a$", ".*prema.*", ".*kannada.*", ".*kantara.*", "varaha.*"]
+}

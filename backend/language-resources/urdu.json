@@ -1,0 +1,10 @@
+{
+  "code": "ur",
+  "name": "Urdu",
+  "script": "Arabic",
+  "commonWords": ["pyaar", "mohabbat", "dil", "jaan", "ishq", "prem", "duniya", "zindagi", "raat", "din", "subah", "shaam", "sapna", "khwab", "dard", "khushi", "gham", "aankh", "aankhen", "honth", "baat", "kahaani", "geet", "raag", "sur", "taal", "naach", "gaana", "bhai", "behen", "maa", "papa", "dost", "yaar", "sajan", "sanam", "mehboob", "jaanam", "ruku", "chalo", "aao", "jao", "dekho", "suno", "batao", "kaho", "kuch", "koi", "ek", "do", "teen", "char", "paanch"],
+  "transliteratedWords": ["tum", "hi", "ho", "channa", "mereya", "raataan", "lambiyan", "bulleya", "tumhi", "humdard", "sanam", "re", "gerua", "kalank", "raabta", "shayad", "tum", "se", "kabhi", "na", "kabhi", "haan", "main", "hoon", "na", "tum", "bin", "dil", "nahi", "lagta", "pyaar", "mohabbat", "ishq", "wala", "aashiqui", "barfi", "aggar", "tum", "kya", "mile", "dhoop", "baarish", "phir", "bhi", "tumko", "chahunga", "main", "arijit", "sonu", "nigam", "shreya", "ghoshal", "neha", "kakkar", "urdu", "ghazal", "qawwali", "nazm", "sher", "shayari"],
+  "charNgrams": ["aa", "ee", "oo", "ai", "au", "kh", "gh", "ch", "jh", "th", "dh", "bh", "sh", "ya", "ra", "la", "va", "ha", "ka", "na"],
+  "wordNgrams": ["tum hi ho", "channa mereya", "sanam re", "tum se hi", "kabhi na kabhi", "tum bin", "dil nahi", "pyaar hua", "mohabbat hai", "ishq wala", "urdu ghazal", "qawwali song"],
+  "patterns": ["^.*aa$", ".*kh.*", ".*gh.*", ".*sh.*", "tum.*", "dil.*", "pyaar.*", "mohabbat.*", "ishq.*", "ghazal.*", "qawwali.*"]
+}
